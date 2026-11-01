@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Language
+
+Always reply to the user in Persian (فارسی) in chat. Keep code, comments, commit messages and file contents in English unless asked otherwise.
+
 ## Overview
 
 PLPR v2: Iranian license plate recognition (GPL-3.0). One two-stage model pipeline runs in four places: a browser app (`web/`), a PySide6 desktop app (`home-yolo.py`), a FastAPI server (`server/app.py`) and an edge agent (`server/agent.py`). `PLPR-modernization-plan.md` has the audit and rationale behind v2; `docs/` covers benchmark, training and research.
